@@ -1,4 +1,12 @@
 # 2048 App
+# Create eks cluter
+
+       ekctl create cluster --name demo-cluster --region ap-south1 --fargate
+
+# Update kubeconfig to connect to your EKS cluster
+
+      aws eks --region ap-south-1 update-kubeconfig --name demo-eks-cluster
+      
 
 ## Create Fargate profile
 
