@@ -1,7 +1,7 @@
 # 2048 App
 # Create eks cluter
 
-       ekctl create cluster --name demo-cluster --region ap-south1 --fargate
+       ekctl create cluster --name demo-cluster --region ap-south-1 --fargate
 
 # Update kubeconfig to connect to your EKS cluster
 
